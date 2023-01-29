@@ -2,7 +2,7 @@
   <br>
   <br>
   <br>
-  <samp>Hello there. I'm <a href="https://twitter.com/rahulreddy_001" target="_blank">Rahul Reddy</a>.<br> Iam a Student, Web Developer.<br><br>#javascript, #reactjs, #nodejs, #mongodb</samp>
+  <samp>Hello there. I'm <a href="https://twitter.com/rahulreddy_001" target="_blank">Rahul Reddy</a>.<br> Iam a Student, Web Developer.<br><br>#javascript, #reactjs, #nodejs, #expressjs, #mongodb</samp>
   <br>
   <br>
 </p>
@@ -18,6 +18,7 @@
 ## Skills
 
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![ExpressJS](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 ![socket.io](https://img.shields.io/badge/Socket.io-010101?&style=for-the-badge&logo=Socket.io&logoColor=white)
