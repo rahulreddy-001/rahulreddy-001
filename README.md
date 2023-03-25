@@ -12,7 +12,6 @@
 
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/OpenJDK-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
 ## Skills
@@ -50,8 +49,8 @@
 ## Accomplishments
 
 - **AttendEase** : _2nd place winner at CSHACK2022, revolutionizing attendance tracking with facial recognition and geolocation technology._
-- **SNIST Attendance Portal**: _**80000** visits, streamlining attendance tracking from college site._
 - **SNIST Website**: _A High-Performance College Website. Winner of Best Performer at WebHackthon2022._
+- **SNIST Attendance Pannel**: _1100 visits/day, streamlining attendance tracking from college site._
 <hr/>
 
 ## Contact Me
