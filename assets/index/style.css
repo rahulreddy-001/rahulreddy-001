@@ -1,0 +1,278 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Press+Start+2P&display=swap"); */
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/NotoSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/PressStart2P-Regular.ttf") format("truetype");
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+* {
+  /* background-color: black; */
+  font-family: "Press Start 2P", cursive;
+  color: white;
+}
+body {
+  background: linear-gradient(-45deg, #00051e, #000000, #010120, #000000);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  user-select: none;
+  min-height: 90vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0;
+  position: relative;
+  transition: all 1s ease;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 50px;
+}
+.content-1 {
+  margin: 17vh 10vw;
+}
+.logo-img {
+  height: 80px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.title {
+  letter-spacing: 3px;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.title-name {
+  color: red;
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+.inp-btn {
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px 0;
+  box-shadow: 0 0 1px 2px rgba(0, 229, 255, 0.181);
+  cursor: pointer;
+  background: linear-gradient(
+      -45deg,
+      transparent calc(100% / 3),
+      rgba(255, 255, 255, 0.5),
+      transparent calc(200% / 3)
+    )
+    bottom right/350% 100% no-repeat;
+  transition: 0.5s linear, background-size 0s 0.5s;
+}
+.inp-btn:hover {
+  background-position: bottom left;
+  background-size: 0 0;
+}
+.content-2 {
+  margin: 0 5px;
+  background-color: cornsilk;
+
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.772);
+}
+.menu {
+  background-color: rgba(71, 71, 255, 0.735);
+  display: flex;
+  justify-content: space-between;
+}
+.menu input {
+  background-color: red;
+  border-color: green;
+  right: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+.menu-title {
+  font-size: 16px;
+  align-self: center;
+  padding: 4px;
+  margin: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+.content-wrapper {
+  background-color: wheat;
+  border: 3px solid rgba(71, 71, 255, 0.735);
+  color: rgb(0, 0, 0);
+  max-height: 72.5vh;
+  font-size: 15px;
+  overflow-y: scroll;
+  padding: 5px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5px;
+}
+.content-data {
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  transition: all 0.3s;
+}
+.content-data:hover {
+  box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.content-data * {
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 2px;
+  color: black;
+}
+.content-data h3 {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 20px;
+  padding: 5px 0 5px 0px;
+  margin: 0px 0 5px 10px;
+  border-bottom: 3px solid rgb(255, 37, 37);
+}
+.content-data p {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 5px 5px 0 5px;
+  margin: 0px 0 0 10px;
+}
+.content-data .previews {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-left: 15px;
+  min-height: 200px;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.content-data .previews::-webkit-scrollbar {
+  display: none;
+}
+.content-data .previews img {
+  height: 200px;
+  width: fit-content;
+  -webkit-user-drag: none;
+}
+.content-data .tools {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: red;
+  font-size: 15px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+.content-data .tools img {
+  height: 25px;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-user-drag: none;
+  box-shadow: 0 0 0px 0.5px rgba(0, 0, 0, 0.216);
+}
+.content-data .tools span {
+  color: red;
+  padding-right: 10px;
+}
+.content-data .links input {
+  border: 0;
+  margin: 5px 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 225, 0);
+  font-weight: 900;
+  font-size: 15px;
+  padding: 5px;
+  margin-right: 5px;
+  min-width: 80px;
+  transition: all 0.3s ease;
+}
+.content-data .links input:hover {
+  box-shadow: 0 0 1px 2px rgba(255, 0, 0, 0.655);
+}
+.content-data .links input:active {
+  box-shadow: 1px 1px 0px 0px rgba(255, 0, 0, 0.655);
+}
+.blank {
+  background-image: linear-gradient(to right, #24243e, #302b63, #24243e);
+  height: 100%;
+  width: cal(100% + 5px);
+  margin-left: -5px;
+}
+@media (max-width: 1000px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-1 {
+    margin: 10vh 15vw;
+  }
+  .content-wrapper {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    max-height: 80vh;
+  }
+  .content-data .previews {
+    min-height: 0px;
+    max-height: 300px;
+  }
+  .blank {
+    display: none;
+  }
+}
+.about {
+  background-image: linear-gradient(to right, #0f0c29, #262343, #24243e);
+  min-height: 70vh;
+  overflow-y: hidden;
+}
+.about h3 {
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 10px;
+}
+.about p {
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 10px;
+}
+.about a {
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 10px;
+  color: brown;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.footer i {
+  margin: 0px 10px;
+  cursor: pointer;
+  color: rgb(149, 149, 149);
+}
+.footer :hover {
+  transition: all 0.1s ease-in;
+  color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
