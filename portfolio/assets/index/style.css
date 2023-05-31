@@ -3,13 +3,13 @@
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: normal;
-  src: url("/assets/fonts/NotoSans-Regular.ttf") format("truetype");
+  src: url("./fonts/NotoSans-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
   font-weight: normal;
-  src: url("/assets/fonts/PressStart2P-Regular.ttf") format("truetype");
+  src: url("./fonts/PressStart2P-Regular.ttf") format("truetype");
 }
 @keyframes gradient {
   0% {

@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
     }
   };
   const renderContentItems = async () => {
-    await fetch("./assets/Projects/list.json")
+    await fetch("./assets/projects/list.json")
       .then((res) => {
         return res.json();
       })

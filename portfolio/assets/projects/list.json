@@ -28,12 +28,12 @@
     "title": "AttendEase",
     "desc": "This React Native app is designed for marking attendance, utilizing both geolocation and face recognition technology. The app uses the device's GPS to verify the user's location and then employs facial recognition software to verify the user's identity.",
     "images": [
-      "/assets/Projects/attendance-1.png",
-      "/assets/Projects/attendance-2.png",
-      "/assets/Projects/attendance-3.png",
-      "/assets/Projects/attendance-4.png",
-      "/assets/Projects/attendance-5.png",
-      "/assets/Projects/attendance-6.png"
+      "./assets/projects/attendance-1.png",
+      "./assets/projects/attendance-2.png",
+      "./assets/projects/attendance-3.png",
+      "./assets/projects/attendance-4.png",
+      "./assets/projects/attendance-5.png",
+      "./assets/projects/attendance-6.png"
     ],
     "tools": [
       "react",
@@ -54,9 +54,9 @@
     "title": "Sreefy",
     "desc": "Sreefy is a music streaming app that allows you to listen to your favorite music for free. With over 50 million tracks, you can listen to the latest hits, discover music you’ll love.",
     "images": [
-      "/assets/Projects/sreefy-1.png",
-      "/assets/Projects/sreefy-2.png",
-      "/assets/Projects/sreefy-3.png"
+      "./assets/projects/sreefy-1.png",
+      "./assets/projects/sreefy-2.png",
+      "./assets/projects/sreefy-3.png"
     ],
     "tools": ["html", "css", "js"],
     "links": {
@@ -68,10 +68,10 @@
     "title": "Drop Files",
     "desc": "Drop files is a simple file sharing service that allows you to share files. It is a free service that does not require registration or login. In addition, it does not have any ads or popups. It is a simple and easy to use service. The uploaded files lasts for short time and then it is deleted from the server.",
     "images": [
-      "/assets/Projects/dropfile-1.png",
-      "/assets/Projects/dropfile-2.png",
-      "/assets/Projects/dropfile-3.png",
-      "/assets/Projects/dropfile-4.png"
+      "./assets/projects/dropfile-1.png",
+      "./assets/projects/dropfile-2.png",
+      "./assets/projects/dropfile-3.png",
+      "./assets/projects/dropfile-4.png"
     ],
     "tools": ["html", "js", "node", "express", "heroku"],
     "links": {
@@ -84,8 +84,8 @@
     "title": "Netflix Clone",
     "desc": "Netflix Clone with React JS and TBMB API, TMDB is a movie which provides movie data, Trending movies or shows etc and we can use it to build our own Netflix Clone.",
     "images": [
-      "/assets/Projects/netflixclone-1.png",
-      "/assets/Projects/netflixclone-2.png"
+      "./assets/projects/netflixclone-1.png",
+      "./assets/projects/netflixclone-2.png"
     ],
     "tools": ["react", "html", "css"],
     "links": {
