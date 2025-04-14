@@ -2,7 +2,7 @@
   <br>
   <br>
   <br>
-  <samp>Hello there. I'm <a href="https://twitter.com/rahulreddy_001" target="_blank">Rahul Reddy</a>.<br> Iam a Student, Web Developer.<br><br>#javascript, #reactjs, #nodejs, #expressjs, #mongodb</samp>
+  <samp>Hello there. I'm <a href="https://twitter.com/rahulreddy_001" target="_blank">Rahul Reddy</a>.<br> Iam a Student, Web Developer.<br><br> #golang, #javascript, #php, #mongodb</samp>
   <br>
   <br>
 </p>
@@ -10,17 +10,14 @@
 
 ## Languages
 
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 ## Skills
 
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![ExpressJS](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![]()
 
 ## Database
 
